@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.me{
+    width: 600px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    margin: 50px;
+    font-size: 1.2rem;
+    color: crimson;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.me{
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
