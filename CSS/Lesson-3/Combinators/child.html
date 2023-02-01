@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child Selectors</title>
+    <style>
+        div >p{
+            color: red;
+            background-color: yellow;
+
+        }
+    </style>
+</head>
+<body>
+    <h2>Child Selectors </h2>
+    <h1>div> p{   faqat shu divni ichidagi hamma p ni belgilaydi</h1>
+    <div>
+        <p>Birinchi paragrph: divni ichida</p>
+        <p>Ikkinchi paragraph: div ni ichida</p>
+        <p>Uchinchi paragraph: div ni ichida</p>
+        <section>
+            <p>Tortinchi paragraph : div ni ichida  lekin sectionning childi </p>
+         
+        </section>
+        <p>Beshinchi paragraph : div ni ichida</p>
+    </div>
+        <p>Oltinchi paragraph : divni ichida emas</p>
+        <p>Yettinchi paragraph : divni ichida emas</p>
+</body>
+</html>
