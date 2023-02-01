@@ -5,14 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="../Portfolio/css/main.css">
 </head>
 <body>
     <!-- Header section -->
+   <div class="container">
     <header class="main-header">
+        <div class="main-header__brand">
+            <a href="./index.html">
+                <img src="./imgaes/logo.jpg" alt="Logo">
+            </a>
+        </div>
         <nav class="main-nav">
             <ul class="main-nav__items">
-                <li class="main-nav__item">
+                <li class="main-nav__item active">
                     <a href="#">Main</a>
                 </li>
                 <li class="main-nav__item">
@@ -39,15 +47,53 @@
             </ul>
         </nav>
     </header>
+   </div>
     <!-- /Header Section -->
     <!-- Main Section -->
-    <section id="main-section">
- Main Section
+    <section id="main-section" class="main-section">
+        <div class="main-section__info">
+            <h4 class="main-section__welcome">Hi everyone</h4>
+            <h1 class="main-section__intro">I'm Jo Breed</h1>
+            <h3 class="main-section__position">Senoir Web Developer and Vlogger</h3>
+            <div class="main-section_social-net">
+                <a href="https://t.me/fazliddinkhayrullaev">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+                <a href="https://instagram.com/fazliddinkhayrullaev">
+                    <i class="fa-brands fa-instagram"></i>
+                    
+                </a>
+            </div>
+            <button type="button" class="main-section__action">See my work</button>
+         </div>
+         <div class="main-section__image">
+            <img src="../Portfolio/imgaes/jo.png" alt="boy">
+         </div>
+         
     </section>
+    <div class="clear-fix"></div>
     <!-- /Main Section -->
+      <!-- Statistics -->
+      <div class="container">
+        <section id="statistics" class="statistics">
+           <div class="statistics-item">
+            <h3 class="statistics__num">15 k+</h3>
+            <p class="statistics__title"> Happy Clients</p>
+           </div>
+           <div class="statistics-item">
+            <h3 class="statistics__num">12 k+</h3>
+            <p class="statistics__title"> Help</p>
+           </div>
+           <div class="statistics-item">
+            <h3 class="statistics__num">9/10 k+</h3>
+            <p class="statistics__title"> Average</p>
+           </div>
+          </section>
+      </div>
+     
     <!-- About me -->
     <section id="about-me">
-    About me
+     About me
     </section>
     <!-- /About me -->
     <!-- My Services -->
