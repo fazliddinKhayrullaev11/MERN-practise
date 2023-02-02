@@ -115,7 +115,7 @@ body{
 }
 .statistics-item{
     display: inline-block;
-    background-color: #F8FAFF;
+    background-color: #F3f3f3;
     text-align: center;
     padding: 5px 10px;
     margin-right: 20px;
@@ -303,7 +303,7 @@ body{
 .client-item__rate{
     color: #FFD805;
 }
-.client-item__rate  .disabled{
-    color: #AEB9BE;
+.client-item__rate.disabled{
+    color: #AEB9;
 
 }
