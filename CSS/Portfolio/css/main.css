@@ -7,6 +7,15 @@ body{
     width: 1140px;
     margin: 0  auto;
 }
+.main-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 3px 16px 0px rgb(0 0 0 /10%);
+    z-index:  10; 
+}
 .clear-fix{
     clear: both;
 }
@@ -197,6 +206,8 @@ body{
     background: rgba(237,35,159,0.6);
     filter: blur(4x);
     border-radius: 5px;
+    position: relative;
+    top: -2px;
 }
 
 /* Services Styles */
@@ -306,4 +317,114 @@ body{
 .client-item__rate.disabled{
     color: #AEB9;
 
+}
+/* Portfolio Styles */
+.portfolio-subtitle{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+   
+    margin-bottom: 10px;
+    color: #888;
+
+}
+.portfolio-title{
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    line-height: 52px;
+    text-transform: capitalize;
+    font-family: inherit;
+}
+.portfolio{
+    padding: 100px 0;
+}
+
+.portfolio-filters{
+    list-style: none;
+    padding-left: 0;
+
+
+}
+.portfolio-filters li{
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #05364d;
+    cursor: pointer;
+    padding: 0 10px;
+    
+}
+.portfolio-filters:hover li{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+.portfolio-items{
+    position: relative;
+    margin-top: 50px;
+
+}
+
+.portfolio-item{
+  position: relative;
+    display: inline-block;
+    cursor: pointer;
+    width: 50%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.portfolio-item__image{
+    width: 100%;
+}
+.portfolio-item__overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(19,69,230,0.9);
+    visibility: hidden;
+    z-index: 1;
+}
+.portfolio-item__info{
+
+    position: absolute;
+    bottom: 44px;
+    left: 80px;
+    color: white;
+    visibility: hidden;
+    z-index: 1;
+
+  
+}
+.portfolio-item__info a{
+    color: white;
+    text-decoration: none;
+}
+.portfolio-item:hover .portfolio-item__overlay {
+    visibility: visible;
+    top: 20px;
+    left: 20px;
+}
+.portfolio-item:hover .portfolio-item__info {
+    visibility: visible;
+    bottom: 24px;
+    left: 60px;
+}
+.portfolio-item2{
+    position: absolute;
+    right: 20;
+    top: 0;
+}
+.portfolio-item3{
+    position: absolute;
+    right: 0;
+    top: 410px;
 }
