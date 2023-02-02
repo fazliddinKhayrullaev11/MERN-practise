@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absolute</title>
+    <style>
+        .relative-box{
+            background-color: red;
+            height: 200px;
+            margin-top: 20px;
+            position: relative;
+            top: 50px;
+            left: 50px;
+        }
+        .absolute-box{
+            background-color: yellow;
+            height: 100px;
+            position: absolute;
+            top: 40px;
+            left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="relative-box">
+        Relative
+        <div class="absolute-box">absolute</div>
+    </div>
+</body>
+</html>
