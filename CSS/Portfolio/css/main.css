@@ -522,3 +522,15 @@ button:hover{
 
 }
 
+/* Partners */
+
+.partners{
+    padding-top: 100px;
+   
+    
+}
+.partner{
+    display: inline-block;
+    padding: 0 30px;
+
+}
