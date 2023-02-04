@@ -51,7 +51,7 @@ vertical-align: middle;
 color: #05364d;
 text-decoration: none;
 text-transform: uppercase;
-font-size: 0.25rem;
+font-size: 0.87rem;
 font-weight: 500;
 }
 .main-nav__item a:hover{
@@ -92,6 +92,44 @@ color: #efb6df;
 
 }
 
+/* Footer styles */
+
+
+.footer{
+    padding: 50px  0;
+    background-color: #021017;
+    text-align: center;
+
+}
+
+.footer-brand img{
+    width: 128px;
+}
+.footer-nav__item{
+    display: inline-block;
+    padding: 0 10px;
+}
+.footer-nav__item a{
+    color: white;
+    text-decoration: none;
+}
+.footer-social  {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 36px;
+    color: #05364d;
+    font-size: 16px;
+    margin-right: 12px;
+    text-decoration: none;
+  
+}
+.footer-social a{
+    color: #021017;
+}
 
 
 
