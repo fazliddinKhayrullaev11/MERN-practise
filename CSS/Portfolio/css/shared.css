@@ -32,7 +32,7 @@ body{
    
 }
 .main-header__brand img{
-width: 64px;
+width: 4.2rem;
 }
 .main-nav{
 display: inline-block;
@@ -64,7 +64,7 @@ color: #efb6df;
 }
 
 .form-title{
-    font-size: 42px;
+    font-size: 2.62rem;
     font-weight: 700;
     margin-bottom: 0.932rem; 
     line-height: 52px;
