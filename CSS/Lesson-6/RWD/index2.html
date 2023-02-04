@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max-width query</title>
+    <style>
+        .box{
+            background-color: red;
+            width: 500px;
+            height: 400px;
+        }
+        @media only screen and (max-width:900px){
+            .box{
+                background-color: black;
+            }
+        }
+
+        @media only screen and (max-width:600px)
+          {
+            .box{
+                background-color: rgb(29, 171, 70);
+            }
+          
+            
+        }
+       
+      
+      
+    </style>
+</head>
+<body>
+    
+    <div class="box">
+        Query Box
+    </div>
+</body>
+</html>
