@@ -2,7 +2,7 @@
 /* Main Section */
 
 .main-section{
-    padding: 100px 30px;
+    padding: 7.5rem 1.87rem;
 }
 .main-section >div{
     width: 50%;
@@ -12,7 +12,7 @@
     text-align: right;
 }
 .main-section__welcome{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     margin-bottom: 20px;
     letter-spacing: 2px;
