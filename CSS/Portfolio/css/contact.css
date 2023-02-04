@@ -13,6 +13,36 @@
     text-transform: capitalize;
     font-family: inherit;
 }
-.textarea input{
+textarea,input{
     width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #f0e9ff;
+    border-radius: 5px;
+  
+    padding-left: 18px;
+    font-size: 13px;
+    background: transparent;
+}
+textarea:focus,
+input:focus{
+    box-shadow: none;
+    outline: 0;
+}
+.half-row{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.contact__firstname{
+    padding-right: 15px;
+}
+
+.contact__email{
+    padding-left: 15px;
+}
+.contact__send{
+    margin-top: 30px;
 }

@@ -46,22 +46,33 @@
                 <li class="main-nav__item">
                     <a href="#">Footer</a>
                 </li>
+                <li class="main-nav__item">
+                    <a href="./conctact.html">Contact</a>
+                </li>
             </ul>
         </nav>
     </header>
    </div>
     <!-- /Header Section -->
     <div class="container">
-        <div class="form-title">
-            connect with me
-        </div>
+       
         <section class="contact">
+            <div class="form-title">
+                Connect with me
+            </div>
            <form action="server.php" method="GET">
-            <textarea   rows="20" placeholder="Enter your message" name="message"></textarea>
+            <textarea   rows="10" placeholder="Enter your message" name="message"></textarea>
+            <div class="half-row  contact__firstname">
             <input type="text" placeholder="Enter your name" name="firstname">
-            <input type="email" placeholder="Enter your email" name="email">
+
+            </div>
+            <div class="half-row  contact__email">
+                <input type="email" placeholder="Enter your email" name="email">
+            </div>
+            
+            
             <input type="text" placeholder="the meaning of letter">
-            <button class="button" type="submit">Send message</button>
+            <button class="button contact__send" type="submit">Send message</button>
 
 
 
