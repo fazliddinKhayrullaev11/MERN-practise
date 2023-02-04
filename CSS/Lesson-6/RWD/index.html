@@ -8,10 +8,24 @@
     <title>Document</title>
     <style>
         .box{
-            width: 375px;
+            width: 505px;
             height: 200px;
             background-color: red;
             color: white;
+        }
+        @media only screen and (max-width:600px)
+          {
+            .box{
+                background-color: black;
+            }
+          
+            
+        }
+
+        @media only screen and (min-width:300px){
+            .box{
+                background-color: aqua;
+            }
         }
     </style>
 </head>
