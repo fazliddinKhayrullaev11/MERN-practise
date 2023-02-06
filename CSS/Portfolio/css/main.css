@@ -525,9 +525,33 @@ button:hover{
     
 }
 /* Portfolio Styles */
+.portfolio{
+    padding: 1.5rem 0;
+}
 .portfolio-item{
     width: 100%;
-    display: block;
+    position: static;
 }
 
+
+/* blogs */
+.blog{
+    padding: 1.5rem 0;
+}
+.blog-item{
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+/* partners */
+
+     .partners{
+        padding: 1.5rem 0;
+     }
+
+     .partner{
+        text-align: center;
+        display: block;
+        margin-bottom: 10px;
+     }
   }

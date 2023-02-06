@@ -166,4 +166,10 @@ color: #efb6df;
     padding: 10px;
 
    }
+
+   /* Footer */
+     .footer-nav{
+        display: none;
+     }
+
   }
