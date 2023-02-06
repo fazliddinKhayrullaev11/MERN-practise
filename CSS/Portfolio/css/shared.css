@@ -96,14 +96,18 @@ color: #efb6df;
 
 
 .footer{
-    padding: 50px  0;
+    padding: 100px  0;
     background-color: #021017;
     text-align: center;
+    margin-top: 50px;
 
 }
 
 .footer-brand img{
     width: 128px;
+}
+.footer-nav__items{
+    margin-bottom: 20px;
 }
 .footer-nav__item{
     display: inline-block;
@@ -130,6 +134,36 @@ color: #efb6df;
 .footer-social a{
     color: #021017;
 }
+.footer-social:hover {
+    background: linear-gradient(to right, #1345e6 0%, #ed239f 51%, #1345e6 0%);
+    background-size: 198% auto;
+}
+.footer-social:hover a{
+    color: white;
+}
+.footer__text{
+    color: #797979;
+}
 
 
+/* Responsive styles */
+@media screen and (max-width: 767px) {
+   
 
+    .main-banner{
+        background: none;
+        min-height: auto;
+    }
+   
+    .container{
+    width: 96%;
+   }
+   .main-nav{
+    display: none;
+   }
+   .main-nav__item{
+  
+    padding: 10px;
+
+   }
+  }

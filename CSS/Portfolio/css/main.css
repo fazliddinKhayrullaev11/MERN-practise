@@ -471,3 +471,32 @@ button:hover{
     padding: 0 30px;
 
 }
+
+/* Resposive */
+@media screen and (max-width: 767px) {
+   .main-section__image{
+    display: none;
+   }
+   .main-section__action{
+    display: none;
+   }
+   .main-section>div{
+    width: 100%;
+   }
+   /* Main section end */
+   /* Statistics section */
+   .statistics-item{
+    display: block;
+    margin: 50px 50px;
+    padding: 5px 10px;
+   }
+   /* about me */
+   .about-me{
+    text-align: center;
+   }
+   .about-me > div{
+    width: 100%;
+    
+}
+
+  }
