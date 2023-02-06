@@ -483,6 +483,9 @@ button:hover{
    .main-section>div{
     width: 100%;
    }
+   .main-section__intro{
+    font-size: 3rem;
+   }
    /* Main section end */
    /* Statistics section */
    .statistics-item{
