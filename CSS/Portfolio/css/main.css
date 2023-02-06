@@ -492,11 +492,28 @@ button:hover{
    }
    /* about me */
    .about-me{
-    text-align: center;
+   padding: 1.5rem 0;
    }
    .about-me > div{
     width: 100%;
+ 
     
 }
+.about-me__image{
+    display: none;
 
+}
+/* Services */
+.services-card{
+    width: 100%;
+}
+
+
+
+
+/* My clients */
+.client-item >div{
+    width: 100%;
+    
+}
   }
