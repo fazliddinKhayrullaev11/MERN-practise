@@ -504,16 +504,30 @@ button:hover{
 
 }
 /* Services */
+.services{
+    padding: 1.5rem 0;
+}
 .services-card{
     width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
 }
 
 
 
 
 /* My clients */
+.clients{
+    padding: 1.5rem 0;
+}
 .client-item >div{
     width: 100%;
     
 }
+/* Portfolio Styles */
+.portfolio-item{
+    width: 100%;
+    display: block;
+}
+
   }
