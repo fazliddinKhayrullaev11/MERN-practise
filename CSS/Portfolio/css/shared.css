@@ -147,6 +147,22 @@ color: #efb6df;
 
 
 /* Responsive styles */
+@media screen and (max-width: 991px) {
+    .main-nav{
+        display: none;
+       }
+
+       .footer-nav{
+        display: none;
+     }
+     .container{
+        width: 95%;
+       }
+       .footer{
+        width: 100%;
+       }
+    
+}
 @media screen and (max-width: 767px) {
    
 
@@ -158,9 +174,7 @@ color: #efb6df;
     .container{
     width: 92%;
    }
-   .main-nav{
-    display: none;
-   }
+  
    .main-nav__item{
   
     padding: 10px;
@@ -168,8 +182,8 @@ color: #efb6df;
    }
 
    /* Footer */
-     .footer-nav{
-        display: none;
-     }
-
+   .footer{
+    width: 100%;
+   }
+    
   }

@@ -473,6 +473,76 @@ button:hover{
 }
 
 /* Resposive */
+@media screen and (max-width: 991px) {
+    .main-banner img{
+       display: none;
+    }
+    .main-section>div{
+        width: 100%;
+       }
+
+       .statistics{
+        padding-top: 1rem;
+        text-align: center;
+       }
+         /* about me */
+   .about-me{
+    padding: 1.5rem 0;
+    }
+    .about-me > div{
+     width: 100%;
+  
+     
+ }
+ .about-me__image{
+     display: none;
+ 
+ }
+ .services{
+    padding: 1.5rem 0;
+}
+   .services-card{
+    width: 45%;
+    margin-top: 20px;
+   }
+   /* My clients */
+.clients{
+    padding: 1.5rem 0;
+}
+.client-item >div{
+    width: 100%;
+    
+}
+.blog-item{
+    width: 45%;
+    margin-bottom: 20px;
+}
+/* partners */
+
+.partners{
+    padding: 1.5rem 0;
+ }
+
+ .partner{
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+ }
+ /* partners */
+
+ .partners{
+    padding: 1.5rem 0;
+ }
+
+ .partner{
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+ }
+ 
+    
+}
+
 @media screen and (max-width: 767px) {
    .main-section__image{
     display: none;

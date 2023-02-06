@@ -46,3 +46,13 @@ input:focus{
 .contact__send{
     margin-top: 30px;
 }
+
+@media screen and (max-width: 991px){
+    .half-row{
+        width: 100%;
+    }
+    .contact__firstname,
+    .contact__email {
+        padding: 0;
+    }
+}
