@@ -6,20 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fonts</title>
     <style>
-         @font-face {
-            font-family: Lato ;
-            src: url(./fonts/Lato/Lato-Black.ttf);
-         }
-       
-         @font-face {
-            font-family: Latoit ;
-            src: url(./fonts/Lato/Lato-Italic.ttf);
-         }
+        @font-face {
+    font-family: 'Lato';
+    src: url('Lato-Black.eot');
+    src: url('Lato-Black.eot?#iefix') format('embedded-opentype'),
+        url('Lato-Black.woff2') format('woff2'),
+        url('Lato-Black.woff') format('woff'),
+        url('Lato-Black.ttf') format('truetype'),
+        url('Lato-Black.svg#Lato-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+
          p{
             font-family: Lato;
          }
          h1{
-            font-family: Latoit;
+            font-family: Lato;
          }
 
     </style>
