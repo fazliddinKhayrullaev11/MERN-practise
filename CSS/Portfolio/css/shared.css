@@ -164,7 +164,7 @@
         url('Roboto-Thin.woff') format('woff'),
         url('Roboto-Thin.ttf') format('truetype'),
         url('Roboto-Thin.svg#Roboto-Thin') format('svg');
-    font-weight: 100;
+    font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
