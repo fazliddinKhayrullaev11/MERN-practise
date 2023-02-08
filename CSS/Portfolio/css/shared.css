@@ -197,6 +197,11 @@ body{
     clear: both;
 }
 /* Main header styles */
+.main-header .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .main-banner{
    
      
