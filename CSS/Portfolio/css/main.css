@@ -69,9 +69,10 @@
 
 .statitics{
     padding-top: 100px;
+    display: flex;
 }
 .statistics-item{
-    display: inline-block;
+
     background-color: #F3f3f3;
     text-align: center;
     padding: 5px 10px;
