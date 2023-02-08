@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+
+    <style>
+        .box{
+            width: 300px;
+            height: 300px;
+            background-color: rgb(225, 255, 0);
+            border-radius: 50%;
+            position: relative;
+            top: 200px;
+            left: 100px;
+            animation-name: anime;
+            animation-timing-function: ease-in-out;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+
+
+        }
+
+        @keyframes anime {
+           25%{
+            position: relative;
+            top: 500px;
+            left: 100px;
+           }
+           50%{
+            position: relative;
+            top: 10px;
+            left: 300px;
+           }
+           75%{
+            position: relative;
+            top: 700px;
+            left: 600px;
+           }
+           100%{
+            position: relative;
+            top: 20px;
+            left: 1000px;
+            background-color: rgb(205, 89, 89);
+            border-radius: 50%;
+           }
+            
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="box">
+
+    </div>
+</body>
+</html>
