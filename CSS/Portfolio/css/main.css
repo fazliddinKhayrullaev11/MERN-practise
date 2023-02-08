@@ -98,7 +98,9 @@
     justify-content: space-between;
 
 }
-
+.about-me>div{
+    flex-grow: 1;
+}
 .about-me img{
     width: 90%;
 }
