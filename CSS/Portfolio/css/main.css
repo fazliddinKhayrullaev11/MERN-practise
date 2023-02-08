@@ -70,6 +70,7 @@
 .statitics{
     padding-top: 100px;
     display: flex;
+    
 }
 .statistics-item{
 
@@ -77,6 +78,7 @@
     text-align: center;
     padding: 5px 10px;
     margin-right: 20px;
+    margin-top: 50px;
 }
 .statistics__num{
     font-size: 27px;
@@ -92,11 +94,11 @@
 
 .about-me{
     padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+
 }
-.about-me > div{
-    width: 50%;
-    float: left;
-}
+
 .about-me img{
     width: 90%;
 }
