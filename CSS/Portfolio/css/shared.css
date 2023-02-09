@@ -171,6 +171,9 @@
 
 
 /* Core styles */
+html{
+    scroll-behavior: smooth;
+}
 
 
 
